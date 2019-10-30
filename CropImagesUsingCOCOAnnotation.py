@@ -13,6 +13,8 @@ def main():
         X=myfile.read()
     obj = json.loads(X)
 
+    i = 1
+
     for annotation in obj['annotations']:
         #print(annotation)
         image_id = annotation['image_id']
@@ -32,7 +34,8 @@ def main():
                 height = annotation['bbox'][3]
                 
                 cropped = imageObject.crop((x, y, x+width, y+height))
-                cropped.save(os.path.join(save_dir, imgName[1]))
+                cropped.save(os.path.join(save_dir, '{}.jpg'.format(i)))
+                i += 1
 
 
 if __name__ == "__main__":

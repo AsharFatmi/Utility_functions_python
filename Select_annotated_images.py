@@ -5,7 +5,7 @@ import json
 
 def select_images():
 
-    img_path = '/home/kingashar/Downloads/images_from_video'
+    img_path = '/home/kingashar/Downloads/images from video'
     save_dir = '/home/kingashar/Downloads/annotated_images'
     annotation = '/home/kingashar/Downloads/annotation.json'
 
