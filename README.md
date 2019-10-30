@@ -7,6 +7,8 @@ OpenCV
 
 json
 
+Pillow
+
 
 
 ## Select_annotated_images.py
@@ -14,3 +16,6 @@ To run -> python3 Select_annotated_images.py
 
 ## convert_VideoFrames_to_Images.py
 To run -> python3 convert_VideoFrames_to_Images.py <Path/to/Video>
+
+## CropImagesUsingCOCOAnnotation.py
+To run -> python3 CropImagesUsingCOCOAnnotation.py
