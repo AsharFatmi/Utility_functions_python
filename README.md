@@ -19,3 +19,6 @@ To run -> python3 convert_VideoFrames_to_Images.py <Path/to/Video>
 
 ## CropImagesUsingCOCOAnnotation.py
 To run -> python3 CropImagesUsingCOCOAnnotation.py
+
+## IPCameraStreamCheck.py
+To run -> python3 IPCameraStreamCheck.py <IP of the camera \ index of webcam (0 by default)>
