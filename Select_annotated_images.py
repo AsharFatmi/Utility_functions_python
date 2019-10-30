@@ -25,8 +25,8 @@ def select_images():
 
         image = cv2.imread(os.path.join(img_path,img[1]))
 
-        #cv2.imshow('image', image)
 
+        #cv2.imshow('image', image)
         # if cv2.waitKey(1) == 0x1b: # ESC
         #     print('ESC pressed. Exiting ...')
         #     break
