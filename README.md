@@ -24,3 +24,6 @@ To run -> python3 CropImagesUsingCOCOAnnotation.py
 
 ### IPCameraStreamCheck.py
 To run -> python3 IPCameraStreamCheck.py <IP of the camera \ index of webcam (0 by default)>
+
+### convertMongojsonToJSON.py
+To run -> python3 convertMongojsonToJSON.py <Path/to/MongoJson>
